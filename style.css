@@ -3,3 +3,56 @@ body {
     color: black;
     font-family: Verdana;
 }
+
+body{
+    margin: 0px;
+}
+
+div.block {
+    height: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+div.block > p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+div.block > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0px
+}
+
+
+div.block#intro {
+    background-color: aqua;
+}
+
+div.block#about {
+    background-color: aquamarine;
+}
+
+div.block#interest {
+    background-color: lightpink;
+}
+
+div.block#pictures {
+    background-color: bisque;
+}
+
+div.block#outro {
+    background-color: rgb(249, 203, 255);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagem{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
